@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shalom Prinz · Projects</title>
+    <meta name="description" content="Projects by Shalom Prinz, including FastStudy, a free Windows app that turns recorded Hebrew lectures into written summaries." />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <style>
+      :root {
+        --bg: #fbfbfd;
+        --surface: #ffffff;
+        --text: #17171f;
+        --text-2: #55596b;
+        --line: #e8e9ef;
+        --accent: #4f5bd5;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: system-ui, sans-serif;
+        line-height: 1.6;
+      }
+      main {
+        max-width: 640px;
+        margin: 0 auto;
+        padding: 64px 16px;
+      }
+      h1 {
+        margin: 0 0 4px;
+        font-size: 28px;
+      }
+      .lead {
+        margin: 0 0 40px;
+        color: var(--text-2);
+      }
+      .card {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        padding: 20px;
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        color: inherit;
+        text-decoration: none;
+      }
+      .card:hover {
+        border-color: var(--accent);
+      }
+      .card img {
+        flex: none;
+      }
+      .card h2 {
+        margin: 0;
+        font-size: 18px;
+        color: var(--accent);
+      }
+      .card p {
+        margin: 2px 0 0;
+        color: var(--text-2);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Shalom Prinz</h1>
+      <p class="lead">Projects</p>
+      <a class="card" href="/fast-study/">
+        <img src="/icon.svg" alt="" width="56" height="56" />
+        <div>
+          <h2>FastStudy</h2>
+          <p>A free Windows app that turns recorded Hebrew lectures into written summaries.</p>
+        </div>
+      </a>
+    </main>
+  </body>
+</html>
